@@ -19,7 +19,10 @@ class _LoginScreenState extends State<LoginScreen> {
             "Start or Join a Meeting",
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
-          Image.asset('assets/images/onboarding.jpg'),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 55.0),
+            child: Image.asset('assets/images/onboarding.jpg'),
+          ),
           costumbuttton(text: "Login"),
         ],
       ),
