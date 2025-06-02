@@ -20,10 +20,10 @@ class _LoginScreenState extends State<LoginScreen> {
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 55.0),
+            padding: const EdgeInsets.only(top: 75.0, bottom: 75.0, right: 6),
             child: Image.asset('assets/images/onboarding.jpg'),
           ),
-          costumbuttton(text: "Login"),
+          costumbuttton(text: "Login", onPressed: () {}),
         ],
       ),
     );
